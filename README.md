@@ -25,3 +25,41 @@ Personal Library is a web application that allows users to manage a collection o
 
 ### Installation
 1. Clone Repo
+```bash
+https://github.com/ShibuSingh2k01/CodeAlpha_Personal-Library.git
+cd personal-library
+```
+
+2. Install Dependencies
+```npm install```
+Note - Make Sure to do this for Backend Folder too
+3. Ensure MongoDB is installed and running on your local machine. The default configuration uses a local MongoDB instance at mongodb://localhost:27017/library.
+4. Start the Server
+```
+npm run dev
+```
+5. Start the Frontend
+```
+npm run dev
+```
+
+## Usage
+- Home Page: View all books in the library.
+- Add Book: Click on "Add Book" to add a new book.
+- Edit Book: Click on a book title and then on "Edit Book" to modify its details.
+- Delete Book: Click on a book title and then on "Delete Book" to remove it from the collection.
+- Search: Use the search bar to find books by title.
+
+## Project Structure
+├── backend                 # Server-side code
+│   ├── models              # Mongoose models
+│   ├── routes              # API routes
+│   └── server.js           # Main server file
+├── frontend                # Client-side code
+│   ├── public              # Public files
+│   ├── src                 # React components and assets
+│   ├── App.jsx             # Main App component
+│   └── index.jsx           # Entry point for React
+├── .gitignore
+├── README.md
+└── package.json
